@@ -1,6 +1,16 @@
 ### Prerequisites 
 [Jupiter Notebook](https://jupyter.org/) can be installed or used in browser to run the program. 
 More information can be found [here](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb).
+Current data can be accessed [here](https://github.com/owid/co2-data) at Our World And Data's complete updated dataset. 
+Data used for this study was taken after 1940-2022.
+
+Required packages are below: 
+```
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.optimize as optimize
+import math
+```
 
 ### Full Paper
 The full written paper on the topic with all figures and references can be found [here](https://figshare.com/articles/journal_contribution/Modelling_Atmospheric_Carbon_Concentration_and_Global_Average_Temperature_Change/22961438). 
